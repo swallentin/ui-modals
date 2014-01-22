@@ -1,0 +1,24 @@
+{
+  "name": "ui-modals",
+  "version": "0.0.0",
+  "authors": [
+    "Stephan Wallentin <stephan.wallentin@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-bootstrap": "~0.10.0",
+    "angular-ui-router": "0.2.7",
+    "angular-mocks": "~1.2.9",
+    "bootstrap": "~3.0.3",
+    "expect": "~0.2.0",
+    "jasmine": "~2.0.0",
+    "mocha": "~1.17.0"
+  }
+}
