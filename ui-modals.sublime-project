@@ -1,9 +1,0 @@
-{
-	"folders":
-	[
-		{
-			"path": "/Users/stephanwallentin/development/javascript/angular/ui-modals",
-	        "folder_exclude_patterns": ["bower_components", "node_modules", "build", ".git"]
-		}
-	]
-}
