@@ -15,10 +15,14 @@ module.exports = function(config) {
     // list of files / patterns to load in the browser
     files: [
       'bower_components/angular/angular.js',
+      'bower_components/angular-animate/angular-animate.js',
       'bower_components/angular-ui-router/release/angular-ui-router.js',
       'bower_components/angular-bootstrap/ui-bootstrap.js',
       'bower_components/angular-bootstrap/ui-bootstrap-tpls.js',
       'bower_components/angular-mocks/angular-mocks.js',
+      // 'bower_components/chai/chai.js',
+      // 'bower_components/expect/expect.js',
+      'src/app.js',
       'src/**/*.js',
       'test/unit/**/*Spec.js'
     ],
@@ -32,7 +36,7 @@ module.exports = function(config) {
 
     // test results reporter to use
     // possible values: 'dots', 'progress', 'junit', 'growl', 'coverage'
-    reporters: ['progress'],
+    reporters: ['spec'],
 
 
     // web server port
@@ -45,11 +49,11 @@ module.exports = function(config) {
 
     // level of logging
     // possible values: config.LOG_DISABLE || config.LOG_ERROR || config.LOG_WARN || config.LOG_INFO || config.LOG_DEBUG
-    logLevel: config.LOG_INFO,
+    logLevel: config.LOG_INFO || config.LOG_DEBUG,
 
 
     // enable / disable watching file and executing tests whenever any file changes
-    autoWatch: false,
+    autoWatch: true,
 
 
     // Start these browsers, currently available:

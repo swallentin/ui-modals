@@ -20,5 +20,9 @@
     "expect": "~0.2.0",
     "jasmine": "~2.0.0",
     "mocha": "~1.17.0"
+  },
+  "devDependencies": {
+    "angular-animate": "~1.2.9",
+    "chai": "~1.8.1"
   }
 }

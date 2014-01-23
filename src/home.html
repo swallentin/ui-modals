@@ -1,3 +1,7 @@
 <h1>Home</h1>
-<div>Selection from a modal: {{ state.state.selected }}</div>
-<div>State: {{ state }}</div>
+<div>$state: {{ $state.current }}</div>
+<div>isActive: {{ isActive('app.monkey') }}</div>
+<div bottombar class="bottombar" ng-class="{active: isActive('app.monkey')}" z-index="1050">
+	<a class="pull-right btn-primary btn-lg" ui-sref="app.monkey({monkeyid: 'ompalompa'})">Create report</a>
+</div>
+<div class="backdrop" backdrop ng-show="isActive('app.monkey')" z-index="1040">backdrop</div>

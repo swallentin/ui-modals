@@ -1,4 +1,30 @@
+body {
+	padding-top: 4em;
+}
+
 .modal .modal-body a {
 	cursor:pointer;
 }
 
+.bottombar {
+	transition: all 0.5s ease-in-out;
+	background-color: #009395;
+	position: fixed;
+	left: 10%;
+	right: 10%;
+	top: 80%;
+	height: 80%;
+}
+
+.bottombar.active {
+	top: 20%;
+	height: 80%;
+}
+
+.backdrop {
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	position: fixed;
+}

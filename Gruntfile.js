@@ -51,6 +51,6 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-karma');
 
-    grunt.registerTask('devmode', ['karma:unit', 'watch']);
+    grunt.registerTask('devmode', ['karma:unit', 'watch:karma']);
     grunt.registerTask('server', ['clean', 'copy', 'connect', 'watch:app']);
 };
