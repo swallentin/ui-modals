@@ -7,24 +7,108 @@ body {
 }
 
 .bottombar {
-	transition: all 0.5s ease-in-out;
-	background-color: #009395;
+	z-index: 1040;
 	position: fixed;
 	left: 10%;
 	right: 10%;
 	top: 80%;
+	height: 20%;
+}
+
+.bottombar .bottombar-header {
+	background-color: #61D2D6;
+	height: 100px;
+	clear: both;
+}
+
+.bottombar .bottombar-content {
+	background-color: #EDE5E2;
+}
+
+.bottombar.focus-add,
+.bottombar.focus-remove {
+	transition: all 0.5s ease-in-out;
+}
+
+.bottombar.focus-add {
+	position: absolute;
+	top: 80%;
+	height: 20%;
+}
+
+.bottombar.focus-add-active {
+	position: absolute;
+	top: 80%;
 	height: 80%;
 }
 
-.bottombar.active {
-	top: 20%;
-	height: 80%;
+.bottombar.focus-remove {
+	position: absolute;
+	top: 80%;
+	height: 80%;	
 }
+
+.bottombar.focus-remove-active {
+	position: absolute;
+	top: 80%;
+	height: 20%;
+}
+
+.bottombar.focus {
+	position: absolute;
+	top: 20%;
+	height: inherit;
+}
+
+
 
 .backdrop {
+	position: fixed;
 	top: 0;
 	left: 0;
 	bottom: 0;
 	right: 0;
-	position: fixed;
+	z-index: 1030;
+	background-color: #000;
+	opacity: 0.5;
+	-webkit-transition: 0.2s linear all;
+	transition: 0.2s linear all;	
+}
+
+.backdrop.ng-hide {
+	opacity: 0;
+}
+
+.backdrop.ng-hide-add, 
+.backdrop.ng-hide-remove {
+  /* this needs to be here to make it visible during the animation
+     since the .ng-hide class is already on the element rendering
+     it as hidden. */
+  display:block!important;
+}
+
+.my-animation {
+}
+
+/* starting animation */
+.my-animation.ng-enter, 
+.my-animation.ng-leave {
+	-webkit-transition: 5s linear all;
+	transition: 5s linear all;
+}
+
+.my-animation.ng-enter {
+	background: red;
+}
+.my-animation.ng-leave {
+	background: blue;
+}
+
+/* destination animations */
+.my-animation.ng-enter-active {
+	background: blue;
+}
+
+.my-animation.ng-leave-active {
+	background: red;
 }

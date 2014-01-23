@@ -47,6 +47,18 @@ app.config(function ($stateProvider, $urlRouterProvider) {
 		.state('app.monkey.donkey', {
 			url: '/donkey/:donkeyid',
 			onEnter: onModalEnter('modal.html', 'ModalCtrl')
+		})
+		.state('animations', {
+			url: '/animations',
+			templateUrl: 'animations.html',
+			controller: 'AnimationsCtrl'
 		});
 
+});
+
+app.run(function ($rootScope, $state, $log) {
+	$rootScope.$on('cancel state', function (message) {
+		$log.log('cancel the shit out of this');
+		$state.go('^');
+	});
 });

@@ -3,9 +3,6 @@ angular.module('app')
 	return {
 		restrict: 'A',
 		link: function($scope, element, attrs) {
-			$(element).on('click', function (ev) {
-				$log.log('bottombar', ev);
-			});
 		}
 	};
 });
