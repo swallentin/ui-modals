@@ -1,0 +1,1722 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"$root",
+				"$rootScope"
+			],
+			[
+				"selected",
+				"selectedItem"
+			],
+			[
+				"mo",
+				"monkey"
+			],
+			[
+				"build",
+				"build_dir"
+			],
+			[
+				"vendor",
+				"vendor_files"
+			],
+			[
+				"vend",
+				"vendor_files"
+			],
+			[
+				"enr",
+				"enrichments"
+			],
+			[
+				"e",
+				"enrichments"
+			],
+			[
+				"enri",
+				"enrichment"
+			],
+			[
+				"idenfi",
+				"identifier"
+			],
+			[
+				"te",
+				"tempting"
+			],
+			[
+				"l",
+				"livereload"
+			],
+			[
+				"base",
+				"base64data"
+			],
+			[
+				"person",
+				"personName"
+			],
+			[
+				"enrichm",
+				"get_enrichment"
+			],
+			[
+				"access-contr",
+				"Access-Control-Allow-Methods"
+			],
+			[
+				"channel",
+				"channelJSON"
+			],
+			[
+				"bro",
+				"broadcastJSON"
+			],
+			[
+				"bra",
+				"broadcastJSON"
+			],
+			[
+				"schedule",
+				"scheduleJSON"
+			],
+			[
+				"authe",
+				"authenticationContext"
+			],
+			[
+				"medu",
+				"mediaUnit"
+			],
+			[
+				"media",
+				"mediaUnit"
+			],
+			[
+				"coor",
+				"coordinatesIndex"
+			],
+			[
+				"desc",
+				"description"
+			],
+			[
+				"description",
+				"descriptionIndex"
+			],
+			[
+				"coo",
+				"coordinatesIndex"
+			],
+			[
+				"eta",
+				"etappIndex"
+			],
+			[
+				"num",
+				"numberOfRowsPerItem"
+			],
+			[
+				"number",
+				"numberOfCoordinates"
+			],
+			[
+				"numb",
+				"numberOfCoordinates"
+			],
+			[
+				"Ev",
+				"EventEmitter"
+			],
+			[
+				"FIZ",
+				"FIZZ"
+			],
+			[
+				"b",
+				"beforeEach"
+			],
+			[
+				"type",
+				"typeName"
+			],
+			[
+				"provider",
+				"providerConfig"
+			],
+			[
+				"pro",
+				"providerConfig"
+			],
+			[
+				"prov",
+				"topic.providerConfigs"
+			],
+			[
+				"crea",
+				"createTaskTopicAndTriggerMethod"
+			],
+			[
+				"to",
+				".to.have.been.calledWith"
+			],
+			[
+				"provid",
+				"providerConfigMissingExceptionMessage"
+			],
+			[
+				"getPr",
+				"this.getProviderConfig"
+			],
+			[
+				"getPro",
+				"this.getProviderNameFromData"
+			],
+			[
+				"regi",
+				"registered"
+			],
+			[
+				"hel",
+				"helper.createReceiverTopicAndTriggerMethod"
+			],
+			[
+				"recer",
+				"receivers."
+			],
+			[
+				"re",
+				"receiver"
+			],
+			[
+				"creat",
+				"createManager"
+			],
+			[
+				"register",
+				"topic.registerReceiver"
+			],
+			[
+				"event",
+				"eventEmitter"
+			],
+			[
+				"even",
+				"eventName"
+			],
+			[
+				"cache",
+				"cacheKey"
+			],
+			[
+				"provi",
+				"providerName"
+			],
+			[
+				"get",
+				"getTaskConfig"
+			],
+			[
+				"providers",
+				"providersConfig"
+			],
+			[
+				"log",
+				"lognassert"
+			],
+			[
+				"config",
+				"configSection"
+			],
+			[
+				"task",
+				"taskConfig"
+			],
+			[
+				"vows",
+				"vows.constructor"
+			],
+			[
+				"fun",
+				"fun	Function"
+			],
+			[
+				"obser",
+				"observerable"
+			],
+			[
+				"observ",
+				"observer1"
+			],
+			[
+				"observer",
+				"observerable"
+			],
+			[
+				"os",
+				"observer1"
+			],
+			[
+				"Obser",
+				"Observable"
+			],
+			[
+				"exp",
+				"exptected"
+			],
+			[
+				"ob",
+				"observer"
+			],
+			[
+				"assert",
+				"assertEquals"
+			],
+			[
+				"item",
+				"itemTransformation"
+			],
+			[
+				"itemtr",
+				"ItemTransformation"
+			],
+			[
+				"memst",
+				"memstore"
+			],
+			[
+				"handle",
+				"handleEvent"
+			],
+			[
+				"this.hand",
+				"this.handleTask"
+			],
+			[
+				"this.han",
+				"this.handleEvent"
+			],
+			[
+				"this.even",
+				"this.eventHandler"
+			],
+			[
+				"eve",
+				"eventEmitter"
+			],
+			[
+				"com",
+				"commandInstance"
+			],
+			[
+				"retur",
+				"returnDocument"
+			],
+			[
+				"sche",
+				"schemaProvider"
+			],
+			[
+				"this.sche",
+				"this.schemas"
+			],
+			[
+				"for",
+				"for	for (…) {…} (Improved Native For-Loop)"
+			],
+			[
+				"comman",
+				"commandConfig"
+			],
+			[
+				"App.getComma",
+				"App.getCommandConfigFromSchema"
+			],
+			[
+				"schem",
+				"schemaName"
+			],
+			[
+				"vehi",
+				"Vehicle"
+			],
+			[
+				"test",
+				"testInstance"
+			],
+			[
+				"ve",
+				"vehicleType"
+			],
+			[
+				"sub",
+				"subclassExample.Superhero"
+			],
+			[
+				"su",
+				"subclassExample.Person"
+			],
+			[
+				"read",
+				"readFile"
+			],
+			[
+				"validate",
+				"validateInput"
+			],
+			[
+				"form",
+				"form	form"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"margin",
+				"margin-right"
+			],
+			[
+				"border",
+				"border-left"
+			],
+			[
+				"bacl",
+				"background-color"
+			],
+			[
+				"back",
+				"background-repeat"
+			],
+			[
+				"font",
+				"font-style"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"pote",
+				"potentialTopLeft"
+			],
+			[
+				"f",
+				"f	Anonymous Function"
+			],
+			[
+				"tetrom",
+				"tetromino"
+			],
+			[
+				"game",
+				"gamePlanHeight"
+			],
+			[
+				"gam",
+				"gamePlanWidth"
+			],
+			[
+				"gamepl",
+				"gamePlanHeight"
+			],
+			[
+				"shap",
+				"shapePoints"
+			],
+			[
+				"block",
+				"blockSize"
+			],
+			[
+				"blok",
+				"blockSize"
+			],
+			[
+				"bl",
+				"blockSize"
+			],
+			[
+				"x",
+				"x_cord"
+			],
+			[
+				"cacl",
+				"calculateYaw"
+			],
+			[
+				"cac",
+				"calculatePitch"
+			],
+			[
+				"cal",
+				"calculateAccel"
+			],
+			[
+				"new",
+				"new_pitch"
+			],
+			[
+				"old_",
+				"old_sensitivity"
+			],
+			[
+				"old",
+				"old_accel"
+			],
+			[
+				"circ",
+				"circle2"
+			],
+			[
+				"selec",
+				"selectorIndex"
+			],
+			[
+				"sele",
+				"selectorIndex"
+			],
+			[
+				"onKe",
+				"on_keyup"
+			],
+			[
+				"inputCharac",
+				"inputCharacters"
+			],
+			[
+				"trn",
+				"transitionEnd"
+			],
+			[
+				"heade",
+				"header-button"
+			],
+			[
+				"bott",
+				"bottom-bar"
+			],
+			[
+				"color",
+				"color-box"
+			],
+			[
+				"ave",
+				"Avengers"
+			],
+			[
+				"reverse",
+				"reverseFilter"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "Packages/JSHint/JSHint.sublime-build",
+	"command_palette":
+	{
+		"height": 375.0,
+		"selected_items":
+		[
+			[
+				"ANF",
+				"ANF: New File"
+			],
+			[
+				"anf",
+				"ANF: New File"
+			],
+			[
+				"",
+				"ANF: New File"
+			],
+			[
+				"enable",
+				"Package Control: Enable Package"
+			],
+			[
+				"form",
+				"Pretty JSON: Reformat (Pretty Print) JSON"
+			],
+			[
+				"set html",
+				"Set Syntax: HTML"
+			],
+			[
+				"jshi",
+				"JSHint"
+			],
+			[
+				"jsh",
+				"JSHint"
+			],
+			[
+				"js",
+				"JSHint"
+			],
+			[
+				"jshint",
+				"JSHint"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"instap",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"inden",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"forma",
+				"Pretty JSON: Reformat (Pretty Print) JSON"
+			],
+			[
+				"pretty",
+				"Pretty JSON: Reformat (Pretty Print) JSON"
+			],
+			[
+				"setjson",
+				"Set Syntax: JSON"
+			],
+			[
+				"dis",
+				"Package Control: Disable Package"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"preyty",
+				"Pretty JSON: Reformat (Pretty Print) JSON"
+			],
+			[
+				"prett",
+				"Pretty JSON: Reformat (Pretty Print) JSON"
+			],
+			[
+				"set json",
+				"Set Syntax: JSON"
+			],
+			[
+				"format",
+				"Pretty JSON: Reformat (Pretty Print) JSON"
+			],
+			[
+				"reform",
+				"Pretty JSON: Reformat (Pretty Print) JSON"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"json",
+				"Pretty JSON: Reformat (Pretty Print) JSON"
+			],
+			[
+				"set",
+				"Set Syntax: JSON"
+			],
+			[
+				"set javas",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"set java",
+				"Set Syntax: Java"
+			],
+			[
+				"setjav",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"side",
+				"View: Toggle Side Bar"
+			],
+			[
+				"sideb",
+				"View: Toggle Side Bar"
+			],
+			[
+				"SID",
+				"View: Toggle Side Bar"
+			],
+			[
+				"SIDE",
+				"View: Toggle Side Bar"
+			],
+			[
+				"conver",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"set ja",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"sideba",
+				"View: Toggle Side Bar"
+			],
+			[
+				"refo",
+				"Pretty JSON: Reformat (Pretty Print) JSON"
+			],
+			[
+				"set javs",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"sid",
+				"View: Toggle Side Bar"
+			],
+			[
+				"set javasc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"set java	",
+				"Set Syntax: Java"
+			],
+			[
+				"sidebar",
+				"View: Toggle Side Bar"
+			],
+			[
+				"toggle",
+				"View: Toggle Side Bar"
+			],
+			[
+				"diff",
+				"Set Syntax: Diff"
+			],
+			[
+				"sublimerg",
+				"Sublimerge: View Diff"
+			],
+			[
+				"sublmerge",
+				"Sublimerge: View Diff"
+			],
+			[
+				"repl node",
+				"SublimeREPL: Node"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"FORMAT",
+				"Pretty JSON: Reformat (Pretty Print) JSON"
+			],
+			[
+				"reforma",
+				"Pretty JSON: Reformat (Pretty Print) JSON"
+			],
+			[
+				"set  java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"for",
+				"Format: Javascript"
+			],
+			[
+				"disa",
+				"Package Control: Disable Package"
+			],
+			[
+				"gist",
+				"Gist: Insert Gist"
+			],
+			[
+				"PACKA",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: List Packages"
+			],
+			[
+				"disba",
+				"Package Control: Disable Package"
+			],
+			[
+				"rename",
+				"File: Rename"
+			],
+			[
+				"formt",
+				"Format: Javascript"
+			],
+			[
+				"rein",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"view",
+				"View In Browser"
+			],
+			[
+				"view ",
+				"View In Browser"
+			],
+			[
+				"rei",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"red",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"ind",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"inde",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"disab",
+				"Package Control: Disable Package"
+			],
+			[
+				"reinde",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"packag",
+				"Package Control: List Packages"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"fo",
+				"Format: Javascript"
+			],
+			[
+				"instll",
+				"Package Control: Install Package"
+			],
+			[
+				"dis	",
+				"SublimeLinter: Disable Linting"
+			],
+			[
+				"wrap",
+				"HTML: Wrap Selection With Tag"
+			],
+			[
+				"disat",
+				"SublimeLinter: Disable Linting"
+			],
+			[
+				"remove ",
+				"Package Control: Remove Package"
+			],
+			[
+				"install p",
+				"Package Control: Install Package"
+			],
+			[
+				"packages",
+				"Package Control: List Packages"
+			],
+			[
+				"package control en",
+				"Package Control: Enable Package"
+			],
+			[
+				"package install",
+				"Package Control: Install Package"
+			],
+			[
+				"install packge",
+				"Package Control: Install Package"
+			],
+			[
+				"remove p",
+				"Package Control: Remove Package"
+			],
+			[
+				"install pack",
+				"Package Control: Install Package"
+			],
+			[
+				"package inst",
+				"Package Control: Install Package"
+			],
+			[
+				"linit",
+				"SublimeLinter: Show Error List"
+			],
+			[
+				"lint",
+				"SublimeLinter: Show Error List"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"remve ",
+				"Package Control: Remove Package"
+			],
+			[
+				"ja",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"new",
+				"File: New View into File"
+			],
+			[
+				"javs",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"packa",
+				"Package Control: List Packages"
+			]
+		],
+		"width": 453.0
+	},
+	"console":
+	{
+		"height": 153.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/stephanwallentin/development/javascript/angular/ui-modals/bower.json",
+		"/Users/stephanwallentin/development/javascript/angular/ui-modals/Gruntfile.js",
+		"/Users/stephanwallentin/development/javascript/angular/ui-modals/src/index.html",
+		"/Users/stephanwallentin/development/javascript/angular/ui-modals/src/app.js",
+		"/Users/stephanwallentin/development/javascript/angular/ui-modals/.git/COMMIT_EDITMSG",
+		"/Users/stephanwallentin/development/clients/eyeota/new-ui/Gruntfile.js",
+		"/Users/stephanwallentin/development/javascript/angular/ui-modals/package.json",
+		"/Users/stephanwallentin/development/javascript/angular/ui-modals/.git/MERGE_MSG",
+		"/Users/stephanwallentin/development/javascript/angular/ui-modals/src/data.json",
+		"/Users/stephanwallentin/development/javascript/angular/ui-modals/src/home.html",
+		"/Users/stephanwallentin/development/javascript/angular/ui-modals/src/modal.html",
+		"/Users/stephanwallentin/development/javascript/angular/ui-modals/bower_components/angular-ui-router/.gitignore",
+		"/Users/stephanwallentin/development/javascript/angular/ui-modals/config/karma.conf.js",
+		"/Users/stephanwallentin/development/javascript/angular/ui-modals/.gitignore",
+		"/Users/stephanwallentin/development/javascript/angular/ui-modals/test/unit/modalSpec.js",
+		"/Users/stephanwallentin/development/javascript/angular/ui-modals/app.js",
+		"/Users/stephanwallentin/development/javascript/angular/ui-modals/modal.html",
+		"/Users/stephanwallentin/development/javascript/angular/ui-modals/home.html",
+		"/Users/stephanwallentin/development/javascript/angular/ui-modals/index.html",
+		"/Users/stephanwallentin/development/javascript/angular/ui-modals/app.css",
+		"/Users/stephanwallentin/development/javascript/angular/ui-modals/karma.conf.js",
+		"/Users/stephanwallentin/Dropbox/Sublime Text 2/Packages/Emmet/Emmet.sublime-settings",
+		"/Users/stephanwallentin/Dropbox/Sublime Text 2/Packages/User/Emmet.sublime-settings",
+		"/Users/stephanwallentin/Dropbox/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/stephanwallentin/Dropbox/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/stephanwallentin/Dropbox/Sublime Text 2/Packages/Emmet/Default (OSX).sublime-keymap",
+		"/Users/stephanwallentin/development/clients/eyeota/new-ui/.git/COMMIT_EDITMSG",
+		"/Users/stephanwallentin/development/clients/eyeota/new-ui/build/assets/eyeota-0.1.0.css",
+		"/Users/stephanwallentin/development/clients/like.tv/admin/src/app/security/ng/services/authentication.js",
+		"/Users/stephanwallentin/development/clients/eyeota/new-ui/bower_components/jquery/jquery.js",
+		"/Users/stephanwallentin/development/clients/eyeota/new-ui/bower_components/jquery/jquery",
+		"/Users/stephanwallentin/development/clients/like.tv/admin/src/app/security/ng/_security.js",
+		"/Users/stephanwallentin/development/clients/eyeota/new-ui-b/bower_components/bootstrap/less/bootstrap.less",
+		"/Users/stephanwallentin/development/javascript/factory-json.js",
+		"/Users/stephanwallentin/development/clients/eyeota/new-ui-b/bower_components/bootstrap/js/bootstrap-dropdown.js",
+		"/Users/stephanwallentin/development/clients/like.tv/admin/vendor/bootstrap/less/mixins.less",
+		"/Users/stephanwallentin/development/clients/eyeota/new-ui-b/app/views/reports/report-details-completed.html",
+		"/Users/stephanwallentin/development/clients/eyeota/new-ui-b/app/views/reports/data-export-control.html",
+		"/Users/stephanwallentin/development/clients/eyeota/new-ui-b/app/views/reports/report-details.html",
+		"/Users/stephanwallentin/development/clients/eyeota/new-ui-b/app/views/users/login.html",
+		"/Users/stephanwallentin/development/clients/eyeota/new-ui-b/app/views/users/users.html",
+		"/Users/stephanwallentin/development/clients/eyeota/new-ui-b/app/views/common/layout.html",
+		"/Users/stephanwallentin/development/clients/eyeota/new-ui/build/index.html",
+		"/Users/stephanwallentin/development/clients/eyeota/new-ui/build/src/app/constant.js",
+		"/Users/stephanwallentin/development/clients/eyeota/new-ui/src/app/app.js",
+		"/Users/stephanwallentin/development/clients/eyeota/new-ui/bower.json",
+		"/Users/stephanwallentin/development/clients/eyeota/new-ui/build.config.js",
+		"/Users/stephanwallentin/development/clients/eyeota/new-ui/build/templates-app.js",
+		"/Users/stephanwallentin/development/clients/eyeota/new-ui/build/demo/components/alerts.html",
+		"/Users/stephanwallentin/development/clients/eyeota/new-ui/test/jade/index.jade",
+		"/Users/stephanwallentin/development/clients/eyeota/new-ui/test/jade/layouts/layout.jade",
+		"/Users/stephanwallentin/development/clients/eyeota/new-ui/build/demo/index.html",
+		"/Users/stephanwallentin/development/clients/eyeota/new-ui/build/demo/modules/create_report.html",
+		"/Users/stephanwallentin/Dropbox/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/stephanwallentin/development/clients/eyeota/lean-project-structure/config/config.dev.json",
+		"/Users/stephanwallentin/development/clients/eyeota/lean-project-structure/.git/COMMIT_EDITMSG",
+		"/Users/stephanwallentin/development/clients/eyeota/lean-project-structure/bower.json",
+		"/Users/stephanwallentin/development/clients/eyeota/lean-project-structure/package.json",
+		"/Users/stephanwallentin/development/clients/eyeota/lean-project-structure/Gruntfile.js",
+		"/Users/stephanwallentin/development/clients/eyeota/lean-project-structure/changelog.tpl",
+		"/Users/stephanwallentin/development/clients/eyeota/lean-project-structure/.gitignore",
+		"/Users/stephanwallentin/development/clients/eyeota/lean-project-structure/build.config.js",
+		"/Users/stephanwallentin/development/clients/eyeota/lean-project-structure/src/jade/index.jade",
+		"/Users/stephanwallentin/development/clients/eyeota/lean-project-structure/src/less/themes/default/master.less",
+		"/Users/stephanwallentin/development/clients/eyeota/lean-project-structure/build/index.html",
+		"/Users/stephanwallentin/development/clients/eyeota/lean-project-structure/dist/index.html",
+		"/Users/stephanwallentin/development/clients/eyeota/lean-project-structure/build/src/index.html",
+		"/Users/stephanwallentin/development/clients/eyeota/lean-project-structure/build/ng-templates/reports/templates/reports.tpl.html",
+		"/Users/stephanwallentin/development/clients/eyeota/lean-project-structure/src/app/app.js",
+		"/Users/stephanwallentin/development/clients/eyeota/lean-project-structure/build/src/app/app.js",
+		"/Users/stephanwallentin/development/clients/eyeota/lean-project-structure/build/templates-app.js",
+		"/Users/stephanwallentin/development/clients/eyeota/lean-project-structure/src/app/reports/templates/reports.tpl.jade",
+		"/Users/stephanwallentin/development/clients/eyeota/lean-project-structure/dist/assets/lean-project-structure-0.0.0.js",
+		"/Users/stephanwallentin/development/clients/eyeota/lean-project-structure/dist/assets/lean-project-structure-0.0.0.css",
+		"/Users/stephanwallentin/development/clients/eyeota/lean-project-structure/src/app/robots.txt",
+		"/Users/stephanwallentin/development/clients/eyeota/lean-project-structure/src/app/reports/ng/_reports.js",
+		"/Users/stephanwallentin/development/clients/eyeota/lean-project-structure/.jshintrc",
+		"/Users/stephanwallentin/development/clients/eyeota/lean-project-structure/test/jade/index.jade",
+		"/Users/stephanwallentin/development/clients/eyeota/lean-project-structure/node_modules/grunt-ng-constant/tasks/constant.tpl.ejs",
+		"/Users/stephanwallentin/development/clients/eyeota/lean-project-structure/node_modules/grunt-ng-constant/tasks/ngconstant.js",
+		"/Users/stephanwallentin/development/clients/eyeota/lean-project-structure/node_modules/grunt-ng-constant/package.json",
+		"/Users/stephanwallentin/Dropbox/Sublime Text 2/Packages/JSHint Gutter/JSHint.sublime-settings",
+		"/Users/stephanwallentin/development/clients/eyeota/lean-project-structure/node_modules/grunt-recess/node_modules/recess/node_modules/less/node_modules/ycssmin/tests/tests.js",
+		"/Users/stephanwallentin/development/clients/eyeota/lean-project-structure/vendor/test.css",
+		"/Users/stephanwallentin/development/clients/eyeota/lean-project-structure/config/config.json",
+		"/Users/stephanwallentin/development/clients/like.tv/angular/.git/COMMIT_EDITMSG",
+		"/Users/stephanwallentin/development/clients/like.tv/angular/src/js/directives/slyRepeat.js",
+		"/Users/stephanwallentin/development/clients/like.tv/angular/scripts/startJsTester",
+		"/Users/stephanwallentin/development/clients/like.tv/webapp/.git/COMMIT_EDITMSG",
+		"/Users/stephanwallentin/development/clients/like.tv/admin/src/app/common/ng/directives/contentHeight.js",
+		"/Users/stephanwallentin/development/clients/like.tv/admin/.git/COMMIT_EDITMSG",
+		"/Users/stephanwallentin/development/clients/like.tv/media-enricher/.git/COMMIT_EDITMSG",
+		"/Users/stephanwallentin/development/clients/like.tv/media-enricher/lib/media-unit-creator.js",
+		"/Users/stephanwallentin/development/clients/like.tv/adminapi/config.json",
+		"/Users/stephanwallentin/development/clients/like.tv/adminapi/config.dev.json",
+		"/Users/stephanwallentin/development/clients/like.tv/adminapi/config.local.json",
+		"/Users/stephanwallentin/development/clients/like.tv/media-enricher/lib/media-unit-matcher.js",
+		"/Users/stephanwallentin/development/clients/like.tv/media-enricher/lib/image-processor.js",
+		"/Users/stephanwallentin/development/clients/like.tv/admin/vendor/bootstrap/less/buttons.less",
+		"/Users/stephanwallentin/development/clients/like.tv/admin/.git/MERGE_MSG",
+		"/Users/stephanwallentin/development/clients/like.tv/adminapi/.git/COMMIT_EDITMSG",
+		"/Users/stephanwallentin/development/clients/like.tv/adminapi/routes/broadcast-route.js",
+		"/Users/stephanwallentin/development/clients/like.tv/likemodelsextractor/.git/COMMIT_EDITMSG",
+		"/Users/stephanwallentin/development/clients/like.tv/likemodels/lib/schemas/series.js",
+		"/Users/stephanwallentin/development/clients/like.tv/likemodels/lib/schemas/broadcast.js",
+		"/Users/stephanwallentin/development/nodejs/post.js",
+		"/Users/stephanwallentin/development/angular/animation/bower_components/bootstrap/dist/css/bootstrap-theme.css",
+		"/Users/stephanwallentin/development/angular/animation/app.js",
+		"/Users/stephanwallentin/development/angular/animation/app.css",
+		"/Users/stephanwallentin/development/angular/animation/bower_components/bootstrap/dist/css/bootstrap.css",
+		"/Users/stephanwallentin/development/angular/animation/bower_components/bootstrap/.bower.json",
+		"/Users/stephanwallentin/development/github/chat-game/data/bootstrap-users.js",
+		"/Users/stephanwallentin/development/github/chat-game/lib/TwilioCapability.js",
+		"/Users/stephanwallentin/development/github/chat-game/lib/mongoose-depop-middleware.js",
+		"/Users/stephanwallentin/development/html/css-content-accordion/index.html",
+		"/Users/stephanwallentin/development/html/css-content-accordion/main.css",
+		"/Users/stephanwallentin/development/nodejs/adminapi-merge/data.json",
+		"/Users/stephanwallentin/development/nodejs/adminapi-merge/index.js",
+		"/Users/stephanwallentin/development/clients/like.tv/adminapi/.git/MERGE_MSG",
+		"/Users/stephanwallentin/development/clients/like.tv/api/lib/routes.js",
+		"/Users/stephanwallentin/development/clients/like.tv/api/initialize.js",
+		"/Users/stephanwallentin/development/clients/like.tv/api/package.json",
+		"/Users/stephanwallentin/Downloads/task_clean/.git/COMMIT_EDITMSG",
+		"/Users/stephanwallentin/Downloads/task_clean/.gitignore",
+		"/Users/stephanwallentin/development/clients/like.tv/api/config.dev.json",
+		"/Users/stephanwallentin/development/clients/like.tv/api/config.json",
+		"/Users/stephanwallentin/development/clients/like.tv/adminapi/config.local.json.backup",
+		"/etc/hosts"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"./",
+			"<open files>,/Users/stephanwallentin/development/clients/eyeota/new-ui",
+			"<open files>",
+			"*.html,/Users/stephanwallentin/development/javascript/angular/yearofmoo-articles.github.com/angularjs-testing-article",
+			"*.hmtl,/Users/stephanwallentin/development/javascript/angular/yearofmoo-articles.github.com/angularjs-testing-article",
+			"*.js,/Users/stephanwallentin/development/javascript/angular/yearofmoo-articles.github.com/angularjs-testing-article",
+			"*.js",
+			"*.less",
+			"*.js",
+			"*.less",
+			"*.les",
+			"*.css",
+			".css",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"livereload",
+			"../",
+			"\n    ",
+			"from",
+			"updating state",
+			"data",
+			"$rootScope",
+			"$log",
+			"$stateParams",
+			"bower_components",
+			"autowa",
+			"ctrlerName",
+			"monkey",
+			"		.state('monkey', {\n			url: '/monkey',\n			onEnter: function ($stateParams, $modal, $log, $state) {\n\n				$log.log('level 1');\n\n				var modalInstance = $modal.open({\n					templateUrl: 'modal.html',\n					controller: 'ModalCtrl',\n					resolve: {\n						items: function () {\n							return [1,2, 3];\n						}\n					},\n					backdrop: true\n				});\n\n				function completed() {\n					$state.transitionTo('home');\n				};\n				modalInstance.result.then(function () {\n					$log.log('successful')\n					completed();\n				}, function () {\n					$log.log('dismissed');\n					completed();\n				});\n			}\n		})",
+			"modal",
+			"li",
+			"$stateProvider",
+			"angular",
+			"btn",
+			"$scop",
+			"bootstrap",
+			"bower_components",
+			"angular",
+			"//",
+			"bootstrap",
+			"script",
+			"#loginForm.",
+			"#login",
+			"sweden",
+			"<!-- <a href=\"#\"><i class=\"icon-help-circled\"></i></a> <span>(millions)</span>-->",
+			"bump",
+			"delta",
+			"watch",
+			"compile_js",
+			"atpl",
+			"v3",
+			"bower_components",
+			"',\n",
+			"jshint",
+			"concat",
+			"jade",
+			"copy",
+			"appConstants",
+			"contrib",
+			"userConfig",
+			"broadcastEnrichemnts",
+			"close",
+			"response",
+			"value",
+			"0s",
+			"loading",
+			"1s",
+			"auto",
+			"toogle",
+			"toggle",
+			"javscript",
+			"hero",
+			"hero-unit",
+			"[X]",
+			"4px",
+			"7px",
+			"7",
+			"13",
+			"4px",
+			"14",
+			"px",
+			"border",
+			"'; ",
+			" }",
+			"<p></p>",
+			"<h2></h2>",
+			"></",
+			"\n      ",
+			"description",
+			"identfier",
+			"enrichments",
+			"\n      ",
+			"twitterTags",
+			"facebookGroups",
+			"      enrichments.forEach(function(enrichment) {\n        target.facebookGroups = target.facebookGroups.concat(enrichment.facebookGroups);\n      });\n",
+			"title",
+			"enrichment",
+			"targetEnrichment",
+			"    \n",
+			"{\n      \"_id\": \"5276f1cecab719392e0005bb\",\n      \"description\": \"Amerikansk action från 1990. En ny, högteknologisk sovjetisk ubåt, Röd oktober, är på väg mot USA:s östkust under kapten Ramius befäl. Den amerikanska regeringen förutsätter att den är på väg att anfalla men CIA-analytikern Jack Ryan tror annorlunda. Hans teori är att Ramius är på väg att hoppa av i väst.\",\n      \"facebookGroups\": [],\n      \"googleNewsKeywords\": [],\n      \"identifier\": \"mtg-epg-se\",\n      \"images\": [],\n      \"links\": [],\n      \"roles\": [\n        {\n          \"roleType\": \"actor\",\n          \"_id\": \"5276f1d0cab719392e00080c\",\n          \"person\": {\n            \"_id\": \"5276f1e0126bb9e1c0f53cf7\",\n            \"name\": \"Sean Connery\"\n          }\n        },\n        {\n          \"roleType\": \"actor\",\n          \"_id\": \"5276f1d0cab719392e000855\",\n          \"person\": {\n            \"_id\": \"52745460126bb9e1c0f534ac\",\n            \"name\": \"James Earl Jones\"\n          }\n        },\n        {\n          \"roleType\": \"director\",\n          \"_id\": \"5276f1d0cab719392e00087c\",\n          \"person\": {\n            \"_id\": \"5276f1e0126bb9e1c0f53cf8\",\n            \"name\": \"John McTiernan\"\n          }\n        },\n        {\n          \"roleType\": \"actor\",\n          \"_id\": \"5276f1d1cab719392e000894\",\n          \"person\": {\n            \"_id\": \"52744f2c126bb9e1c0f530a4\",\n            \"name\": \"Sam Neill\"\n          }\n        },\n        {\n          \"roleType\": \"actor\",\n          \"_id\": \"5276f1d1cab719392e00089a\",\n          \"person\": {\n            \"_id\": \"52744ef9126bb9e1c0f53023\",\n            \"name\": \"Alec Baldwin\"\n          }\n        },\n        {\n          \"roleType\": \"actor\",\n          \"_id\": \"5276f1d1cab719392e00089f\",\n          \"person\": {\n            \"_id\": \"52735d9a126bb9e1c0f524f3\",\n            \"name\": \"Stellan Skarsgård\"\n          }\n        }\n      ],\n      \"title\": \"Jakten på Röd Oktober\",\n      \"twitterTags\": [],\n      \"updated\": \"2013-11-04T01:01:02.130Z\"\n    }",
+			"likemodelsextractor",
+			"69",
+			"127",
+			"eachlimit",
+			"[ ]",
+			"get_channels",
+			"authenticationContext",
+			"require",
+			"ObjectId",
+			"}\n{\n",
+			"\n		",
+			"glyph",
+			"icon",
+			"glyph",
+			"glypl",
+			"schedule",
+			"connection",
+			");\n",
+			"acl.acl",
+			"server",
+			");\n",
+			"post",
+			"/broadcast/:broadcastId",
+			");\n",
+			"CORS",
+			"/se",
+			"se",
+			"allowedDomains",
+			"put",
+			"			",
+			");\n",
+			"http",
+			"();",
+			"request",
+			"str",
+			"post",
+			"facebookGroups",
+			"enrichmentId",
+			"post_broadcast",
+			"server",
+			"',",
+			"\n",
+			",\n  {\n    \"channelId\": 57,\n    \"channelName\": \"TV3\",\n    \"sortOrder\": 2,\n    \"imageUrl\": \"/channels/tv3center.png\",\n    \"broadcasts\": [\n      {\n        \"id\": \"iii\",\n        \"title\": \"Blue bloods\",\n        \"startTime\": 1375315200000,\n        \"duration\": 3600000,\n        \"category\": \"series\",\n        \"status\": \"not tested\"\n      },\n      {\n        \"id\": \"lll\",\n        \"title\": \"Född mördare?\",\n        \"startTime\": 1375315200000,\n        \"duration\": 3600000,\n        \"category\": \"series\",\n        \"status\": \"not tested\"\n      }\n    ]\n  }"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"MainCtrl",
+			"\"",
+			" \n ",
+			" "
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 361.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"grunt",
+				"Gruntfile.js"
+			],
+			[
+				".git",
+				".gitignore"
+			],
+			[
+				"index",
+				"src/index.html"
+			],
+			[
+				"karma",
+				"karma.conf.js"
+			],
+			[
+				"app",
+				"app.js"
+			],
+			[
+				"app.js",
+				"app.js"
+			],
+			[
+				"repor-d",
+				"reports/report-details.html"
+			],
+			[
+				"data",
+				"reports/data-export-control.html"
+			],
+			[
+				"users",
+				"users/users.html"
+			],
+			[
+				"login",
+				"users/login.html"
+			],
+			[
+				"layout",
+				"common/layout.html"
+			],
+			[
+				"src/app",
+				"src/app/app.js"
+			],
+			[
+				"packa",
+				"package.json"
+			],
+			[
+				"test.css",
+				"vendor/test.css"
+			],
+			[
+				"tests",
+				"node_modules/grunt-recess/node_modules/recess/node_modules/less/node_modules/ycssmin/tests/tests.js"
+			],
+			[
+				".css",
+				"app.css"
+			],
+			[
+				"",
+				"data.json"
+			],
+			[
+				"water",
+				"waterfall.js"
+			],
+			[
+				"each",
+				"each.js"
+			],
+			[
+				"wat",
+				"watcher.js"
+			],
+			[
+				"ap",
+				"app.js"
+			],
+			[
+				"conn",
+				"connection.js"
+			],
+			[
+				"server",
+				"server.js"
+			],
+			[
+				"prox",
+				"scripts/proxy_deploy.sh"
+			],
+			[
+				"index.html",
+				"app/index.html"
+			],
+			[
+				"app-start",
+				"test/integration/app-start-test.js"
+			],
+			[
+				"old",
+				"old-app.js"
+			],
+			[
+				"ind",
+				"index.html"
+			],
+			[
+				"re",
+				"README.md"
+			],
+			[
+				"read",
+				"README.md"
+			],
+			[
+				"rea",
+				"README.md"
+			],
+			[
+				"rad",
+				"README.md"
+			],
+			[
+				"i",
+				".gitignore"
+			],
+			[
+				"con",
+				"config.json"
+			],
+			[
+				"tas",
+				"Task.js"
+			],
+			[
+				"test",
+				"test.sh"
+			],
+			[
+				".json",
+				"test/fixtures/input.json"
+			],
+			[
+				"manag",
+				"lib/manager.js"
+			],
+			[
+				"manager-test",
+				"test/manager-test.js"
+			],
+			[
+				"provi",
+				"test/fixtures/providers.json"
+			],
+			[
+				"provider",
+				"config/providers.json"
+			],
+			[
+				"mana",
+				"lib/manager.js"
+			],
+			[
+				"slask",
+				"lib/slask.js"
+			],
+			[
+				"obs",
+				"test/observable-test.js"
+			],
+			[
+				"ob",
+				"observable.js"
+			],
+			[
+				"mang",
+				"manager.js"
+			],
+			[
+				"helper",
+				"lib/tasks/helper.js"
+			],
+			[
+				"heler",
+				"lib/tasks/helper.js"
+			],
+			[
+				"udf",
+				"xml/UDF.xml"
+			],
+			[
+				"mytsk",
+				"lib/tasks/MyTask.js"
+			],
+			[
+				"pay",
+				"payload.json"
+			],
+			[
+				"cuntr",
+				"countries-output.json"
+			],
+			[
+				"buil",
+				"build.sh"
+			],
+			[
+				"inde",
+				"assets/jade/index.jade"
+			],
+			[
+				"main.less",
+				"assets/less/main.less"
+			],
+			[
+				"control",
+				"js/controllers.js"
+			],
+			[
+				"cdn",
+				"tasks/cdnify.js"
+			],
+			[
+				"lib/",
+				"lib/data.js"
+			],
+			[
+				"components/",
+				"jade/test/components/c-alerts.jade"
+			],
+			[
+				"aler",
+				"app/styles/alerts.less"
+			],
+			[
+				"report-table",
+				"app/styles/report-table.less"
+			],
+			[
+				"ngfi",
+				"ngFilter/index.html"
+			],
+			[
+				"ngfilter/",
+				"ngFilter/app.js"
+			],
+			[
+				"filters/in",
+				"filters/index.html"
+			],
+			[
+				"filters/",
+				"filters/app.js"
+			],
+			[
+				"var",
+				"app/styles/less_bootstrap/variables.less"
+			],
+			[
+				"index.",
+				"app/index.html"
+			],
+			[
+				"stat",
+				"app/scripts/directives/statusbar.js"
+			],
+			[
+				"user.js",
+				"app/scripts/services/User.js"
+			],
+			[
+				"report",
+				"app/scripts/services/Report.js"
+			],
+			[
+				"multi",
+				"app/styles/dropdown-multicombo.less"
+			],
+			[
+				"vara",
+				"app/styles/less_bootstrap/variables.less"
+			],
+			[
+				"mult",
+				"app/styles/dropdown-multicombo.less"
+			],
+			[
+				"mix",
+				"mixins.less"
+			],
+			[
+				"reports.html",
+				"app/views/loggedin/reports.html"
+			],
+			[
+				"sca",
+				"app/styles/less_bootstrap/scaffolding.less"
+			],
+			[
+				"controllers/",
+				"app/scripts/controllers/login.js"
+			],
+			[
+				"services/",
+				"app/scripts/services/User.js"
+			],
+			[
+				"log",
+				"views/login.html"
+			],
+			[
+				"a",
+				"app/scripts/app.js"
+			],
+			[
+				"ignore",
+				".gitignore"
+			],
+			[
+				"comp",
+				"component.json"
+			],
+			[
+				".rec",
+				".recessrc"
+			],
+			[
+				"active",
+				"app/scripts/directives/activeLink.js"
+			],
+			[
+				"vari",
+				"app/styles/compass_twitter_bootstrap/_variables.scss"
+			],
+			[
+				"respon",
+				"app/styles/compass_twitter_bootstrap/_responsive-navbar.scss"
+			],
+			[
+				"variab",
+				"app/styles/compass_twitter_bootstrap/_variables.scss"
+			],
+			[
+				"button",
+				"app/styles/compass_twitter_bootstrap/_buttons.scss"
+			],
+			[
+				"media",
+				"app/styles/compass_twitter_bootstrap/_media.scss"
+			],
+			[
+				"ph",
+				"app/partials/phone-detail.html"
+			],
+			[
+				"phone-deta",
+				"app/partials/phone-detail.html"
+			],
+			[
+				"json",
+				"app/phones/phones.json"
+			],
+			[
+				"s",
+				"test/e2e/scenarios.js"
+			],
+			[
+				"scen",
+				"test/e2e/scenarios.js"
+			],
+			[
+				"scenar",
+				"test/e2e/scenarios.js"
+			],
+			[
+				"app/inde",
+				"app/index.html"
+			],
+			[
+				"phones.json",
+				"app/phones/phones.json"
+			],
+			[
+				"contro",
+				"app/js/controllers.js"
+			],
+			[
+				"contr",
+				"app/js/controllers.js"
+			],
+			[
+				"controller",
+				"test/unit/controllersSpec.js"
+			],
+			[
+				"controllerspec",
+				"test/unit/controllersSpec.js"
+			],
+			[
+				"indec",
+				"app/index-async.html"
+			],
+			[
+				"controll",
+				"test/unit/controllersSpec.js"
+			],
+			[
+				"conto",
+				"app/js/controllers.js"
+			],
+			[
+				"poly",
+				"dependency-n-coupling/CouplingByPolyMorphism.js"
+			],
+			[
+				"cop",
+				"dependency-n-coupling/CouplingInAField.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 300.0,
+	"status_bar_visible": true
+}

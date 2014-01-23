@@ -1,7 +1,6 @@
 angular.module('app')
 .controller('MainCtrl', function ($scope, $log, $http, $state) {
 	$scope.$state = $state;
-	$log.log('MainCtrl');
 
 	$scope.isActive = function (state) {
 		return $state.current.name.indexOf(state) > -1;

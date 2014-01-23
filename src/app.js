@@ -58,7 +58,6 @@ app.config(function ($stateProvider, $urlRouterProvider) {
 
 app.run(function ($rootScope, $state, $log) {
 	$rootScope.$on('cancel state', function (message) {
-		$log.log('cancel the shit out of this');
 		$state.go('^');
 	});
 });

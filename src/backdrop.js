@@ -5,16 +5,31 @@ angular.module('app')
 	    return $state.current.name.indexOf(state) > -1;
     };
 })
-.directive('backdrop', function ($log, $rootScope) {
+
+.directive('backdrop', function ($log, $rootScope, $modal) {
 	return {
 		restrict: 'EA',
 		replace: true,
 		templateUrl: 'backdrop.html',
 		controller: 'BackdropCtrl',
 		link: function($scope, element, attrs) {
+
 			$(element).on('click', function (ev) {
-				$log.log('backdrop', ev);
-				$rootScope.$broadcast('cancel state');
+				$log.log('backdrop clicked');
+				var modalInstance = $modal.open({
+					templateUrl: 'modal-cancel.html',
+					controller: 'ModalCtrl',
+					backdrop: false,
+					windowClass: 'modal-cancel'
+				});
+
+				modalInstance.result.then(function (result) {
+					$rootScope.$broadcast('cancel state');
+					$log.log('Adhoc modal successful', result);
+				}, function () {
+					$log.log('Adhoc modal dismissed');
+				});	
+
 			});			
 		}
 	};
