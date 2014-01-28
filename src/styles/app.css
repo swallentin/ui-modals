@@ -11,14 +11,37 @@ body {
 	position: fixed;
 	left: 10%;
 	right: 10%;
-	top: 80%;
 	height: 20%;
+    top: 80%;
+    -webkit-transition: 0.5s linear all;
+    transition: 0.5s linear all;
 }
+
+.bottombar.ng-hide {
+    top: 100%;
+}
+
+.bottombar.ng-hide-add,
+.bottombar.ng-hide-remove {
+
+    /* this needs to be here to make it visible during the animation
+       since the .ng-hide class is already on the element rendering
+       it as hidden. */
+    display:block!important;
+}
+
+.bottombar .bottombar-header:hover {
+}
+
 
 .bottombar .bottombar-header {
 	background-color: #61D2D6;
-	height: 100px;
+	height: 10em;
 	clear: both;
+	padding: 2em;
+	border-top-left-radius:25px;
+	border-top-right-radius:25px;
+	border:1px solid #4c9699;
 }
 
 .bottombar .bottombar-content {

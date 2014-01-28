@@ -1,0 +1,8 @@
+<div class="bottombar" ng-show="isVisible" ng-class="{focus: isActive}">
+    <div class="bottombar-header">
+        <h1>isActive: {{isActive}}</h1>
+        <a class="pull-right btn-primary btn-lg" href="{{target}}">{{title}}</a>
+    </div>
+    <div class="bottombar-content" ui-view="secondary">
+    </div>
+</div>
