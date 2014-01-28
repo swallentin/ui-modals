@@ -7,20 +7,18 @@ angular.module('app')
 	.controller('BottombarCtrl', function ($scope, $log, $rootScope, $state) {
 		$log.log('BottombarCtrl');
 
-		$scope.isVisible = $scope.isActive = false;
-
 		$rootScope.$on('bottombar:isVisible', function (ev, isVisible) {
 			$scope.isVisible = isVisible;
 		});
 
 		$rootScope.$on('bottombar:isActive', function (ev, isActive) {
+			$log.log('handling bottombar isActive');
 			$scope.isActive = isActive
 		});
 
 		$scope.$watch('isActive', function (newValue, oldValue) {
 			$log.log('$watch isActive: ', newValue, oldValue);
-
-			$rootScope.$broadcast('backdrop:toggle', newValue);
+			$rootScope.$broadcast('backdrop:isActive', newValue);
 		});
 
 		$rootScope.$on("bottombar:settings", function(ev, message) {
@@ -28,16 +26,23 @@ angular.module('app')
 			$scope.target = $state.href(message.buttonTargetState, message.buttonTargetStateArgs);
 		});
 
+		$scope.isVisible = false;
+		$scope.isActive = false;
+
 		$rootScope.$broadcast('bottombar:ready');
+
+		$rootScope.$on('backdrop:ready', function () {
+			$rootScope.$broadcast('backdrop:isActive', $scope.isActive);
+		});
+
 	});
 
 angular.module('app')
 	.controller('BackdropCtrl', function ($scope, $state, $log, $rootScope) {
 		$log.log('BackdropCtrl');
 
-		$rootScope.$on('backdrop:toggle', function (ev, message) {
-			$log.log('backdrop toggle', message);
-			$scope.active = message;
+		$rootScope.$on('backdrop:isActive', function (ev, isActive) {
+			$scope.isActive= isActive;
 		});
 
 		$rootScope.$broadcast('backdrop:ready');

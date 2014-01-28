@@ -3,9 +3,9 @@ angular.module('app')
 		return {
 			restrict: 'EA',
 			templateUrl: 'views/bottombar.html',
-			replace: true,
 			controller: 'BottombarCtrl',
 			link: function($scope, $element, attrs) {
+				$log.log('directive stuff');
 			}
 		};
 	});
@@ -58,8 +58,7 @@ angular.module('app')
 
 				};
 
-				$scope.$watch('active', function (newValue, oldValue) {
-					if(newValue === oldValue) return;
+				$scope.$watch('isActive', function (newValue, oldValue) {
 
 					if(newValue) {
 						$element.bind('click', handler);

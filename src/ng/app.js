@@ -10,10 +10,7 @@ angular.module('app')
 
 angular.module('app')
 	.config(function ($stateProvider, $urlRouterProvider) {
-		var debugController = function ($scope, $log, $state) {
-				$log.log("logging");
-			},
-			onModalEnter = function (templateUrl, controllerName) {
+		var createModal = function (templateUrl, controllerName) {
 				return function ($modal, $state, $log) {
 
 					var modalInstance = $modal.open({
@@ -53,16 +50,20 @@ angular.module('app')
 						controller: "ReportsCtrl"
 					}
 				},
-				onEnter: function ($rootScope) {
-//					$rootScope.$broadcast('bottombar:isVisible', true);
+				onEnter: function ($rootScope, $timeout) {
+					$timeout(function () {
+						$rootScope.$broadcast('bottombar:isVisible', true)
+					}, 0);
 				},
-				onExit: function ($rootScope) {
-					$rootScope.$broadcast('bottombar:isVisible', false);
+				onExit: function ($rootScope,$timeout) {
+					$timeout(function () {
+						$rootScope.$broadcast('bottombar:isVisible', false)
+					}, 0);
 				}
 			})
 				.state('app.reports.view', {
 					url: '/:reportid',
-					onEnter: onModalEnter('views/view-report.html', 'ModalCtrl')
+					onEnter: createModal('views/view-report.html', 'ModalCtrl')
 				})
 				.state('app.reports.edit', {
 					url: '/:reportid/edit',
@@ -72,19 +73,23 @@ angular.module('app')
 							controller: 'ReportBottombarCtrl'
 						}
 					},
-					onEnter: function ($log, $rootScope) {
+					onEnter: function ($log, $rootScope, $timeout) {
 						// toggle bottombar
-//						$rootScope.$broadcast('bottombar:isActive', true);
+						$timeout(function () {
+							$rootScope.$broadcast('bottombar:isActive', true)
+						}, 0);
 					},
-					onExit: function ($log, $rootScope) {
+					onExit: function ($log, $rootScope, $timeout) {
 						// toggle bottombar
 						$log.log('Leaving create report');
-						$rootScope.$broadcast('bottombar:isActive', false);
+						$timeout(function () {
+							$rootScope.$broadcast('bottombar:isActive', false)
+						}, 0);
 					}
 				})
 					.state('app.reports.edit.edit-filter', {
 						url: '/filter/:filterid/edit',
-						onEnter: onModalEnter('views/edit-filter.html', 'ModalCtrl')
+						onEnter: createModal('views/edit-filter.html', 'ModalCtrl')
 					});
 
 	});
