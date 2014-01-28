@@ -16,7 +16,8 @@ angular.module('app')
 					var modalInstance = $modal.open({
 							templateUrl: templateUrl,
 							controller: controllerName,
-							backdrop: true
+							backdrop: true,
+							windowClass: 'modal-secondary'
 						}),
 
 						completed = function () {

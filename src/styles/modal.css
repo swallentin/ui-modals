@@ -11,3 +11,49 @@
   cursor:pointer;
 }
 
+.modal.modal-secondary .modal-dialog {
+    position: static;
+    width: 80%;
+    margin-top: 16%;
+    margin-left: 12%;
+}
+
+.modal.modal-secondary .modal-content {
+    border-top-left-radius:25px;
+    border-top-right-radius:25px;
+    border:1px solid #4c9699;
+}
+
+.modal.modal-secondary .modal-header {
+    border-top-left-radius:25px;
+    border-top-right-radius:25px;
+    background-color: #61D2D6;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1040;
+    display: none;
+    overflow: auto;
+    overflow-y: scroll;
+}
+
+.modal.fade .modal-dialog {
+    -webkit-transform: translate(0, 100%);
+    -ms-transform: translate(0, 100%);
+    transform: translate(0, 100%);
+    -webkit-transition: -webkit-transform 0.5s ease-out;
+    -moz-transition: -moz-transform 0.5s ease-out;
+    -o-transition: -o-transform 0.5s ease-out;
+    transition: transform 0.5s ease-out;
+}
+
+.modal.in .modal-dialog {
+    -webkit-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    transform: translate(0, 0);
+}
