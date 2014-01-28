@@ -6,7 +6,6 @@ angular.module('app')
 			replace: true,
 			controller: 'BottombarCtrl',
 			link: function($scope, $element, attrs) {
-				$log.log('Wooaa!');
 			}
 		};
 	});

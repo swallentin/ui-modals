@@ -1,0 +1,13 @@
+
+.modal.modal-cancel .modal-header {
+  border-bottom: none;
+}
+
+.modal.modal-cancel .modal-dialog {
+  width: 300px;
+}
+
+.modal .modal-body a {
+  cursor:pointer;
+}
+

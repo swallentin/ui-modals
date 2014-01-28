@@ -1,13 +1,6 @@
 angular.module('app')
 	.controller('MainCtrl', function ($scope, $log, $http, $state) {
 		$scope.$state = $state;
-
-
-	});
-
-angular.module('app')
-	.controller('AnimationsCtrl', function ($scope) {
-
 	});
 
 angular.module('app')
@@ -17,7 +10,6 @@ angular.module('app')
 		$scope.isVisible = $scope.isActive = false;
 
 		$rootScope.$on('bottombar:isVisible', function (ev, isVisible) {
-			$log.log('answering isVisible');
 			$scope.isVisible = isVisible;
 		});
 
@@ -26,7 +18,7 @@ angular.module('app')
 		});
 
 		$scope.$watch('isActive', function (newValue, oldValue) {
-			if(newValue=== oldValue) return;
+			$log.log('$watch isActive: ', newValue, oldValue);
 
 			$rootScope.$broadcast('backdrop:toggle', newValue);
 		});
@@ -77,13 +69,14 @@ angular.module('app')
 			}
 		});
 
+		$rootScope.$broadcast('bottombar:isActive', true);
+
 	});
 
 angular.module('app')
 	.controller('ReportsCtrl', function ($scope, $log, $rootScope) {
 
 		$rootScope.$on('bottombar:ready', function (ev, message) {
-			$log.log('bottombar is ready');
 			$rootScope.$broadcast('bottombar:isVisible', true);
 		});
 

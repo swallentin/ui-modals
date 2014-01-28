@@ -54,7 +54,7 @@ angular.module('app')
 					}
 				},
 				onEnter: function ($rootScope) {
-					$rootScope.$broadcast('bottombar:isVisible', true);
+//					$rootScope.$broadcast('bottombar:isVisible', true);
 				},
 				onExit: function ($rootScope) {
 					$rootScope.$broadcast('bottombar:isVisible', false);
@@ -74,8 +74,7 @@ angular.module('app')
 					},
 					onEnter: function ($log, $rootScope) {
 						// toggle bottombar
-						$log.log('Entering create report');
-						$rootScope.$broadcast('bottombar:isActive', true);
+//						$rootScope.$broadcast('bottombar:isActive', true);
 					},
 					onExit: function ($log, $rootScope) {
 						// toggle bottombar

@@ -1,0 +1,25 @@
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 1030;
+  background-color: #000;
+  opacity: 0.5;
+  -webkit-transition: 0.2s linear all;
+  transition: 0.2s linear all;
+}
+
+.backdrop.ng-hide {
+  opacity: 0;
+}
+
+.backdrop.ng-hide-add,
+.backdrop.ng-hide-remove {
+  /* this needs to be here to make it visible during the animation
+     since the .ng-hide class is already on the element rendering
+     it as hidden. */
+  display:block!important;
+}
+
