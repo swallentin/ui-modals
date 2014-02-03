@@ -1,5 +1,5 @@
 angular.module('app')
-	.directive('bottombar', function ($log, $rootScope) {
+	.directive('bottombar', function ($log, $rootScope, $document) {
 		return {
 			restrict: 'EA',
 			templateUrl: 'views/bottombar.html',

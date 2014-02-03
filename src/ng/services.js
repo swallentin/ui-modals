@@ -7,12 +7,12 @@ angular.module('app')
 			}
 		};
 	})
-	.factory('SimpleService', function ($http, $q, ContextService) {
+	.factory('SimpleService', function ($http, $q, ContextService, config) {
 		var get = function () {
 			var deferred = $q.defer();
 
 			ContextService.buildParams().then(function (params) {
-				$http.get('http://localhost:5000/reports', {
+				$http.get(config.apiHost + config.endPoints.reports, {
 					params: params
 				}).then(function (response) {
 					deferred.resolve(response.data);
@@ -27,7 +27,7 @@ angular.module('app')
 			get: get
 		}
 	})
-	.factory('ContextService', function ($http, $q, $log, $rootScope) {
+	.factory('ContextService', function ($http, $q, $log, $rootScope, config) {
 			var currentContext,
 				setContext = function(context) {
 					currentContext = context;
@@ -50,7 +50,7 @@ angular.module('app')
 				get = function () {
 					var deferred = $q.defer();
 
-					$http.get('http://localhost:5000/contexts').then(function (response) {
+					$http.get(config.apiHost + config.endPoints.contexts).then(function (response) {
 						deferred.resolve(response.data);
 					}, function(error) {
 						deferred.reject(error);
@@ -60,7 +60,7 @@ angular.module('app')
 				},
 				getById = function (id) {
 					var deferred = $q.defer(),
-						url = "http://localhost:5000/contexts/:contextid".replace(":contextid", id);
+						url = (config.apiHost + config.endPoints.context).replace(":contextid", id);
 
 					$http.get(url).then(function (response) {
 						deferred.resolve(response.data);

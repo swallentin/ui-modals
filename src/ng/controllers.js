@@ -18,7 +18,6 @@ angular.module('app')
 			},
 			databindReports = function () {
 				SimpleService.get().then(function (reports) {
-					$log.log('Ctrl', reports);
 					$scope.reports = reports;
 				});
 			},

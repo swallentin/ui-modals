@@ -6,11 +6,17 @@
         </ul>
 
         <h3>Contexts</h3>
-        <ul>
-            <li ng-repeat="context in contexts">
-                <a href="" ng-click="switchContext(context.id)">{{context.name}}</a>
-            </li>
-        </ul>
+
+        <div class="btn-group">
+            <button ng-repeat="context in contexts"
+                    ng-click="switchContext(context.id)"
+                    type="button"
+                    class="btn btn-default"
+                    ng-class="{
+                        active: context.tag === currentContext.tag
+                    }">{{context.name}}</button>
+        </div>
+
 
         <h3>Reports</h3>
         <ul>

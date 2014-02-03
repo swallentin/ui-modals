@@ -7,6 +7,16 @@ angular.module('app', [
 angular.module('app')
 	.value('version', '0.1');
 
+angular.module('app')
+	.value('config', {
+		apiHost: 'http://eyeota.api.codejut.su',
+		endPoints: {
+			context: '/contexts/:contextid',
+			contexts: '/contexts',
+			reports: '/reports'
+		}
+	});
+
 
 angular.module('app')
 	.config(function ($stateProvider, $urlRouterProvider) {
