@@ -1,2 +1,21 @@
 <h1>Reports</h1>
 
+        <ul>
+            <li>Current context token: <strong>{{currentContext}}</strong></li>
+            <li>Contexts: <strong>{{contexts}}</strong></li>
+        </ul>
+
+        <h3>Contexts</h3>
+        <ul>
+            <li ng-repeat="context in contexts">
+                <a href="" ng-click="switchContext(context.id)">{{context.name}}</a>
+            </li>
+        </ul>
+
+        <h3>Reports</h3>
+        <ul>
+            <li ng-repeat="report in reports">
+                <span>{{report}}</span>
+            </li>
+        </ul>
+

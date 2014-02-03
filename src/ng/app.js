@@ -10,8 +10,8 @@ angular.module('app')
 
 angular.module('app')
 	.config(function ($stateProvider, $urlRouterProvider) {
-		var createModal = function (templateUrl, controllerName) {
-				return function ($modal, $state, $log) {
+		var createModal = function (templateUrl, controllerName, broadcastResultTo) {
+				return function ($modal, $state, $log, $rootScope) {
 
 					var modalInstance = $modal.open({
 							templateUrl: templateUrl,
@@ -24,8 +24,12 @@ angular.module('app')
 							$state.go('^');
 						};
 
-					modalInstance.result.then(function () {
+					modalInstance.result.then(function (result) {
 						$log.log('Router modal successful');
+
+						if(broadcastResultTo)
+							$rootScope.$broadcast(broadcastResultTo, result);
+
 						completed();
 					}, function () {
 						$log.log('Router modal dismissed');
@@ -56,7 +60,7 @@ angular.module('app')
 						$rootScope.$broadcast('bottombar:isVisible', true)
 					}, 0);
 				},
-				onExit: function ($rootScope,$timeout) {
+				onExit: function ($rootScope,$timeout, $log) {
 					$timeout(function () {
 						$rootScope.$broadcast('bottombar:isVisible', false)
 					}, 0);
@@ -64,7 +68,11 @@ angular.module('app')
 			})
 				.state('app.reports.view', {
 					url: '/:reportid',
-					onEnter: createModal('views/view-report.html', 'ModalCtrl')
+					onEnter: createModal('views/view-report.html', 'ModalCtrl'),
+					onExit: function ($log) {
+//						@todo: check if a modal exists
+						$log.log('exiting view report state');
+					}
 				})
 				.state('app.reports.edit', {
 					url: '/:reportid/edit',
@@ -90,7 +98,7 @@ angular.module('app')
 				})
 					.state('app.reports.edit.edit-filter', {
 						url: '/filter/:filterid/edit',
-						onEnter: createModal('views/edit-filter.html', 'ModalCtrl')
+						onEnter: createModal('views/edit-filter.html', 'ModalCtrl', 'edit-filter-complete')
 					});
 
 	});

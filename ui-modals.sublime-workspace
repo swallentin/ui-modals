@@ -4,8 +4,40 @@
 		"selected_items":
 		[
 			[
+				"te",
+				"templateUrl"
+			],
+			[
+				"to",
+				"toState"
+			],
+			[
+				"para",
+				"pharetra"
+			],
+			[
+				"for",
+				"for	for (…) {…}"
+			],
+			[
 				"$root",
 				"$rootScope"
+			],
+			[
+				"desc",
+				"describe"
+			],
+			[
+				"inva",
+				"invalid"
+			],
+			[
+				"invli",
+				"invalidEmails"
+			],
+			[
+				"valid",
+				"validEmails"
 			],
 			[
 				"selected",
@@ -42,10 +74,6 @@
 			[
 				"idenfi",
 				"identifier"
-			],
-			[
-				"te",
-				"tempting"
 			],
 			[
 				"l",
@@ -98,10 +126,6 @@
 			[
 				"coor",
 				"coordinatesIndex"
-			],
-			[
-				"desc",
-				"description"
 			],
 			[
 				"description",
@@ -158,10 +182,6 @@
 			[
 				"crea",
 				"createTaskTopicAndTriggerMethod"
-			],
-			[
-				"to",
-				".to.have.been.calledWith"
 			],
 			[
 				"provid",
@@ -322,10 +342,6 @@
 			[
 				"this.sche",
 				"this.schemas"
-			],
-			[
-				"for",
-				"for	for (…) {…} (Improved Native For-Loop)"
 			],
 			[
 				"comman",
@@ -498,22 +514,6 @@
 			[
 				"heade",
 				"header-button"
-			],
-			[
-				"bott",
-				"bottom-bar"
-			],
-			[
-				"color",
-				"color-box"
-			],
-			[
-				"ave",
-				"Avengers"
-			],
-			[
-				"reverse",
-				"reverseFilter"
 			]
 		]
 	},
@@ -527,7 +527,7 @@
 		"selected_items":
 		[
 			[
-				"ANF",
+				"",
 				"ANF: New File"
 			],
 			[
@@ -535,7 +535,23 @@
 				"ANF: New File"
 			],
 			[
-				"",
+				"dnf",
+				"ANF: Delete Current File"
+			],
+			[
+				"rnf",
+				"ANF: Rename File"
+			],
+			[
+				"and",
+				"ANF: Delete File"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"ANF",
 				"ANF: New File"
 			],
 			[
@@ -565,10 +581,6 @@
 			[
 				"jshint",
 				"JSHint"
-			],
-			[
-				"install",
-				"Package Control: Install Package"
 			],
 			[
 				"instap",
@@ -920,20 +932,44 @@
 	},
 	"file_history":
 	[
-		"/Users/stephanwallentin/development/javascript/angular/ui-modals/bower.json",
-		"/Users/stephanwallentin/development/javascript/angular/ui-modals/Gruntfile.js",
+		"/Users/stephanwallentin/.ssh/known_hosts",
+		"/Users/stephanwallentin/development/javascript/angular/ui-modals/src/app.css",
+		"/Users/stephanwallentin/development/javascript/angular/ui-modals/src/layout_bottombar.html",
 		"/Users/stephanwallentin/development/javascript/angular/ui-modals/src/index.html",
+		"/Users/stephanwallentin/development/javascript/angular/ui-modals/src/nav.html",
 		"/Users/stephanwallentin/development/javascript/angular/ui-modals/src/app.js",
-		"/Users/stephanwallentin/development/javascript/angular/ui-modals/.git/COMMIT_EDITMSG",
-		"/Users/stephanwallentin/development/clients/eyeota/new-ui/Gruntfile.js",
+		"/Users/stephanwallentin/development/javascript/angular/ui-modals/src/layout_simple.html",
+		"/Users/stephanwallentin/development/javascript/angular/ui-modals/src/home.html",
+		"/Users/stephanwallentin/development/javascript/angular/ui-modals/src/backdrop.js",
+		"/Users/stephanwallentin/development/javascript/angular/ui-modals/src/report-bottombar.html",
+		"/Users/stephanwallentin/development/javascript/angular/ui-modals/src/report.html",
+		"/Users/stephanwallentin/development/javascript/angular/ui-modals/src/backdrop.html",
+		"/Users/stephanwallentin/development/javascript/angular/ui-modals/src/layout_simple.hmtl",
+		"/Users/stephanwallentin/development/javascript/angular/ui-modals/src/MainCtrl.js",
+		"/Users/stephanwallentin/development/javascript/angular/ui-modals/src/lorem.js",
+		"/Users/stephanwallentin/development/javascript/angular/ui-modals/src/ModalCtrl.js",
+		"/Users/stephanwallentin/development/javascript/angular/ui-modals/src/modal-cancel.html",
 		"/Users/stephanwallentin/development/javascript/angular/ui-modals/package.json",
+		"/Users/stephanwallentin/development/javascript/angular/ui-modals/README.md",
+		"/Users/stephanwallentin/development/javascript/angular/ui-modals/bower.json",
+		"/Users/stephanwallentin/development/javascript/angular/ui-modals/.git/COMMIT_EDITMSG",
+		"/Users/stephanwallentin/development/javascript/angular/ui-modals/src/cancelmodal.html",
+		"/Users/stephanwallentin/development/javascript/angular/ui-modals/src/modal.html",
+		"/Users/stephanwallentin/development/javascript/angular/ui-modals/src/AnimationsCtrl.js",
+		"/Users/stephanwallentin/development/javascript/angular/ui-modals/src/bottombar.js",
+		"/Users/stephanwallentin/development/javascript/angular/ui-modals/src/animations.html",
+		"/Users/stephanwallentin/development/javascript/angular/ui-modals/.gitignore",
+		"/Users/stephanwallentin/development/javascript/angular/ui-modals/test/unit/loginSpec.js",
+		"/Users/stephanwallentin/development/javascript/angular/ui-modals/src/LoginService.js",
+		"/Users/stephanwallentin/development/javascript/angular/ui-modals/src/LoginCtrl.js",
+		"/Users/stephanwallentin/development/javascript/angular/ui-modals/config/karma.conf.js",
+		"/Users/stephanwallentin/development/javascript/angular/ui-modals/Gruntfile.js",
+		"/Users/stephanwallentin/development/javascript/angular/ui-modals/ui-modals.sublime-workspace",
+		"/Users/stephanwallentin/development/javascript/angular/ui-modals/ui-modals.sublime-project",
+		"/Users/stephanwallentin/development/clients/eyeota/new-ui/Gruntfile.js",
 		"/Users/stephanwallentin/development/javascript/angular/ui-modals/.git/MERGE_MSG",
 		"/Users/stephanwallentin/development/javascript/angular/ui-modals/src/data.json",
-		"/Users/stephanwallentin/development/javascript/angular/ui-modals/src/home.html",
-		"/Users/stephanwallentin/development/javascript/angular/ui-modals/src/modal.html",
 		"/Users/stephanwallentin/development/javascript/angular/ui-modals/bower_components/angular-ui-router/.gitignore",
-		"/Users/stephanwallentin/development/javascript/angular/ui-modals/config/karma.conf.js",
-		"/Users/stephanwallentin/development/javascript/angular/ui-modals/.gitignore",
 		"/Users/stephanwallentin/development/javascript/angular/ui-modals/test/unit/modalSpec.js",
 		"/Users/stephanwallentin/development/javascript/angular/ui-modals/app.js",
 		"/Users/stephanwallentin/development/javascript/angular/ui-modals/modal.html",
@@ -1023,31 +1059,7 @@
 		"/Users/stephanwallentin/development/clients/like.tv/adminapi/.git/COMMIT_EDITMSG",
 		"/Users/stephanwallentin/development/clients/like.tv/adminapi/routes/broadcast-route.js",
 		"/Users/stephanwallentin/development/clients/like.tv/likemodelsextractor/.git/COMMIT_EDITMSG",
-		"/Users/stephanwallentin/development/clients/like.tv/likemodels/lib/schemas/series.js",
-		"/Users/stephanwallentin/development/clients/like.tv/likemodels/lib/schemas/broadcast.js",
-		"/Users/stephanwallentin/development/nodejs/post.js",
-		"/Users/stephanwallentin/development/angular/animation/bower_components/bootstrap/dist/css/bootstrap-theme.css",
-		"/Users/stephanwallentin/development/angular/animation/app.js",
-		"/Users/stephanwallentin/development/angular/animation/app.css",
-		"/Users/stephanwallentin/development/angular/animation/bower_components/bootstrap/dist/css/bootstrap.css",
-		"/Users/stephanwallentin/development/angular/animation/bower_components/bootstrap/.bower.json",
-		"/Users/stephanwallentin/development/github/chat-game/data/bootstrap-users.js",
-		"/Users/stephanwallentin/development/github/chat-game/lib/TwilioCapability.js",
-		"/Users/stephanwallentin/development/github/chat-game/lib/mongoose-depop-middleware.js",
-		"/Users/stephanwallentin/development/html/css-content-accordion/index.html",
-		"/Users/stephanwallentin/development/html/css-content-accordion/main.css",
-		"/Users/stephanwallentin/development/nodejs/adminapi-merge/data.json",
-		"/Users/stephanwallentin/development/nodejs/adminapi-merge/index.js",
-		"/Users/stephanwallentin/development/clients/like.tv/adminapi/.git/MERGE_MSG",
-		"/Users/stephanwallentin/development/clients/like.tv/api/lib/routes.js",
-		"/Users/stephanwallentin/development/clients/like.tv/api/initialize.js",
-		"/Users/stephanwallentin/development/clients/like.tv/api/package.json",
-		"/Users/stephanwallentin/Downloads/task_clean/.git/COMMIT_EDITMSG",
-		"/Users/stephanwallentin/Downloads/task_clean/.gitignore",
-		"/Users/stephanwallentin/development/clients/like.tv/api/config.dev.json",
-		"/Users/stephanwallentin/development/clients/like.tv/api/config.json",
-		"/Users/stephanwallentin/development/clients/like.tv/adminapi/config.local.json.backup",
-		"/etc/hosts"
+		"/Users/stephanwallentin/development/clients/like.tv/likemodels/lib/schemas/series.js"
 	],
 	"find":
 	{
@@ -1055,7 +1067,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 95.0,
 		"where_history":
 		[
 			"./",
@@ -1079,6 +1091,32 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"ec2",
+			"name",
+			"nav",
+			"left",
+			"edit-report",
+			"donkey",
+			"monkey",
+			"h3",
+			"numberOfParagraphs",
+			"1s",
+			"2s",
+			"my-elm",
+			"1s",
+			"my-animation",
+			"5s",
+			"isActive = fun",
+			"2",
+			"fixed",
+			".my-animation.ng-enter {\n	background: red;\n}\n",
+			"0.5",
+			"0.5s",
+			"all linear 0.5s",
+			"chai",
+			"angular",
+			"script",
+			"\n	",
 			"livereload",
 			"../",
 			"\n    ",
@@ -1180,33 +1218,7 @@
 			"glyph",
 			"glypl",
 			"schedule",
-			"connection",
-			");\n",
-			"acl.acl",
-			"server",
-			");\n",
-			"post",
-			"/broadcast/:broadcastId",
-			");\n",
-			"CORS",
-			"/se",
-			"se",
-			"allowedDomains",
-			"put",
-			"			",
-			");\n",
-			"http",
-			"();",
-			"request",
-			"str",
-			"post",
-			"facebookGroups",
-			"enrichmentId",
-			"post_broadcast",
-			"server",
-			"',",
-			"\n",
-			",\n  {\n    \"channelId\": 57,\n    \"channelName\": \"TV3\",\n    \"sortOrder\": 2,\n    \"imageUrl\": \"/channels/tv3center.png\",\n    \"broadcasts\": [\n      {\n        \"id\": \"iii\",\n        \"title\": \"Blue bloods\",\n        \"startTime\": 1375315200000,\n        \"duration\": 3600000,\n        \"category\": \"series\",\n        \"status\": \"not tested\"\n      },\n      {\n        \"id\": \"lll\",\n        \"title\": \"Född mördare?\",\n        \"startTime\": 1375315200000,\n        \"duration\": 3600000,\n        \"category\": \"series\",\n        \"status\": \"not tested\"\n      }\n    ]\n  }"
+			"connection"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1214,6 +1226,9 @@
 		"regex": false,
 		"replace_history":
 		[
+			"edit-filter",
+			"edit-report",
+			"report",
 			"MainCtrl",
 			"\"",
 			" \n ",
@@ -1279,8 +1294,60 @@
 		"selected_items":
 		[
 			[
+				"nat",
+				"src/nav.html"
+			],
+			[
+				"app.css",
+				"src/app.css"
+			],
+			[
+				"app.js",
+				"src/app.js"
+			],
+			[
+				"canc",
+				"src/cancelmodal.html"
+			],
+			[
+				"back",
+				"src/backdrop.js"
+			],
+			[
+				"modal.html",
+				"src/modal.html"
+			],
+			[
+				"main",
+				"src/MainCtrl.js"
+			],
+			[
+				"lorem",
+				"src/lorem.js"
+			],
+			[
+				"inde",
+				"src/index.html"
+			],
+			[
+				"bottom",
+				"src/bottombar.js"
+			],
+			[
+				"home",
+				"src/home.html"
+			],
+			[
+				"app",
+				"src/app.css"
+			],
+			[
 				"grunt",
 				"Gruntfile.js"
+			],
+			[
+				"login",
+				"test/unit/loginSpec.js"
 			],
 			[
 				".git",
@@ -1295,14 +1362,6 @@
 				"karma.conf.js"
 			],
 			[
-				"app",
-				"app.js"
-			],
-			[
-				"app.js",
-				"app.js"
-			],
-			[
 				"repor-d",
 				"reports/report-details.html"
 			],
@@ -1313,10 +1372,6 @@
 			[
 				"users",
 				"users/users.html"
-			],
-			[
-				"login",
-				"users/login.html"
 			],
 			[
 				"layout",
@@ -1489,10 +1544,6 @@
 			[
 				"buil",
 				"build.sh"
-			],
-			[
-				"inde",
-				"assets/jade/index.jade"
 			],
 			[
 				"main.less",
