@@ -4,8 +4,8 @@
 			<li><a ui-sref="app">Home</a></li>
 			<li><a ui-sref="app.reports">Report list</a></li>
 			<li><a ui-sref="app.reports.view({reportid: 'ompalompa'})">View a report</a></li>
-			<li><a ui-sref="app.reports.edit({reportid: 'ompalompa'})">Create or edit a report</a></li>
-			<li><a ui-sref="app.reports.edit.edit-filter({reportid: 'ompalompa', filterid: 'flonkie'})">Create or edit a report filter</a></li>
+			<li><a access-level="a" ui-sref="app.reports.edit({reportid: 'ompalompa'})">Create or edit a report</a></li>
+			<li><a access-level="c" ui-sref="app.reports.edit.edit-filter({reportid: 'ompalompa', filterid: 'flonkie'})">Create or edit a report filter</a></li>
 		</ul>
 	</div>
 </nav>

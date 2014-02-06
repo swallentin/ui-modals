@@ -11,6 +11,39 @@ angular.module('app')
 	});
 
 angular.module('app')
+	.directive('accessLevel', function(AuthorizationService, $log, $rootScope) {
+		return {
+			restrict: 'A',
+			link: function ($scope, $element, $attrs) {
+				var _feature,
+					prevDisp = $element.css('display'),
+					updateCSS = function () {
+						if (AuthorizationService.authorize(_feature)) {
+							$log.log('authorized');
+							$element.css('display', prevDisp);
+						} else {
+							$log.log('not authorized');
+							$element.css('display', 'none')
+						}
+					},
+					userContextChangedHandler = $rootScope.$on('ContextService:context:updated', updateCSS);
+
+				$attrs.$observe('accessLevel', function (accessLevel) {
+					if(accessLevel) {
+						_feature = accessLevel;
+						updateCSS();
+					}
+				});
+
+
+				$scope.$on('$destroy', function () {
+					userContextChangedHandler();
+				});
+			}
+		}
+	});
+
+angular.module('app')
 	.directive('lorem', function () {
 		return {
 			restrict: 'EA',

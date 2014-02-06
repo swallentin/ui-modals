@@ -22,8 +22,8 @@ module.exports = function(config) {
       'bower_components/angular-mocks/angular-mocks.js',
       // 'bower_components/chai/chai.js',
       // 'bower_components/expect/expect.js',
-      'src/app.js',
-      'src/**/*.js',
+      'src/ng/app.js',
+      'src/ng/*.js',
       'test/unit/**/*Spec.js'
     ],
 

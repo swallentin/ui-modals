@@ -9,7 +9,7 @@ angular.module('app')
 
 angular.module('app')
 	.value('config', {
-		apiHost: 'http://eyeota.api.codejut.su',
+		apiHost: 'http://localhost:5000',
 		endPoints: {
 			context: '/contexts/:contextid',
 			contexts: '/contexts',

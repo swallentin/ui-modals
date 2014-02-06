@@ -1,15 +1,15 @@
 angular.module('app')
 	.controller('MainCtrl', function ($scope, $log, $http, $state, ContextService, SimpleService, $rootScope) {
 
+		$scope.currentContext = ContextService.current();
+
 		var databind = function() {
-				databindCurrentContext();
 				databindContexts();
 				databindReports();
+				databindCurrentContext();
 			},
 			databindCurrentContext = function () {
-				ContextService.current().then(function (context) {
-					$scope.currentContext = context;
-				});
+				$scope.currentContext = ContextService.current();
 			},
 			databindContexts = function () {
 					ContextService.get().then(function(contexts) {
@@ -23,14 +23,13 @@ angular.module('app')
 			},
 			contextUpdatedHandler = $rootScope.$on('ContextService:context:updated', databind);
 
-		$scope.switchContext = function(contextId) {
-			ContextService.set(contextId).then(function() {
-				ContextService.current().then(function (currentContext) {
-					$scope.currentContext = currentContext;
-				});
-			}, function(error) {
-				$log.log('fail', error);
-			});
+		$scope.switchContext = function (contextId) {
+			var success = function (data) {
+				},
+				error = function (error) {
+				};
+
+			ContextService.set(contextId).then(success, error);
 		};
 
 		databind();
@@ -38,6 +37,13 @@ angular.module('app')
 		$scope.$on('$destroy', function () {
 			contextUpdatedHandler();
 		});
+
+	});
+
+angular.module('app')
+	.controller('LoginCtrl', function ($scope, $log) {
+
+		$scope.awesomeThings = ['monkey', 'donkey', 'failure'];
 
 	});
 
