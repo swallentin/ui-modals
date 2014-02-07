@@ -11,19 +11,57 @@ angular.module('app')
 	});
 
 angular.module('app')
-	.directive('accessLevel', function(AuthorizationService, $log, $rootScope) {
+	.directive('navAnimation', function ($rootScope, $log, $animate, AuthorizationService) {
+		return {
+			link: function ($scope, $element, $attrs) {
+
+				$element.addClass('navimation');
+				var handler = $rootScope.$on('ContextService:context:updated', function () {
+
+					$animate.addClass($element, 'toggle', function () {
+						var $elements = $element.find('[data-nav-access-level]'),
+							$navElement,
+							accessLevel;
+
+						$elements.each(function (index, navElement) {
+							$navElement = $(navElement);
+							accessLevel = $navElement.data('nav-access-level');
+							if(AuthorizationService.authorize(accessLevel)) {
+								$navElement.removeClass('disabled');
+							} else {
+								$navElement.addClass('disabled');
+							}
+						});
+						$animate.removeClass($element, 'toggle');
+					})
+				});
+
+
+				$scope.$on('$destroy', function() {
+					handler();
+				})
+			}
+		};
+
+	});
+
+
+angular.module('app')
+	.directive('accessLevel', function(AuthorizationService, $log, $rootScope, $animate) {
 		return {
 			restrict: 'A',
 			link: function ($scope, $element, $attrs) {
+
+				$element.addClass('accessLevel');
 				var _feature,
 					prevDisp = $element.css('display'),
 					updateCSS = function () {
 						if (AuthorizationService.authorize(_feature)) {
-							$log.log('authorized');
-							$element.css('display', prevDisp);
+							$animate.addClass($element, 'enabled');
+//							$element.css('display', prevDisp);
 						} else {
-							$log.log('not authorized');
-							$element.css('display', 'none')
+//							$element.css('display', 'none')
+							$animate.removeClass($element, 'enabled');
 						}
 					},
 					userContextChangedHandler = $rootScope.$on('ContextService:context:updated', updateCSS);
