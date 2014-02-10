@@ -6,3 +6,10 @@
 body {
 	padding-top: 4em;
 }
+
+.eyeota-progress {
+    width: 30%;
+    left: 35%;
+    position: absolute;
+    height: 40px;
+}

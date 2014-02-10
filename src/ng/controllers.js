@@ -4,7 +4,9 @@ angular.module('app')
 		$scope.currentContext = ContextService.current();
 
 		var databind = function() {
-				databindContexts();
+					$http.get('http://httpbin.org/delay/1');
+
+					databindContexts();
 				databindReports();
 				databindCurrentContext();
 			},
@@ -12,9 +14,9 @@ angular.module('app')
 				$scope.currentContext = ContextService.current();
 			},
 			databindContexts = function () {
-					ContextService.get().then(function(contexts) {
-						$scope.contexts = contexts;
-					});
+				ContextService.get().then(function(contexts) {
+					$scope.contexts = contexts;
+				});
 			},
 			databindReports = function () {
 				SimpleService.get().then(function (reports) {

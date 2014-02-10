@@ -1,28 +1,32 @@
 <h1>Reports</h1>
+<div>
+    <ul>
+        <li>Current context token: <strong>{{currentContext}}</strong></li>
+        <li>Contexts: <strong>{{contexts}}</strong></li>
+    </ul>
+</div>
 
-        <ul>
-            <li>Current context token: <strong>{{currentContext}}</strong></li>
-            <li>Contexts: <strong>{{contexts}}</strong></li>
-        </ul>
 
 
+<h3>Contexts</h3>
 
-        <h3>Contexts</h3>
+<div class="btn-group">
+    <button ng-repeat="context in contexts"
+            ng-click="switchContext(context.id)"
+            type="button"
+            class="btn btn-default"
+            ng-class="{
+                active: context.tag === currentContext.tag
+            }">{{context.name}}</button>
+</div>
 
-        <div class="btn-group">
-            <button ng-repeat="context in contexts"
-                    ng-click="switchContext(context.id)"
-                    type="button"
-                    class="btn btn-default"
-                    ng-class="{
-                        active: context.tag === currentContext.tag
-                    }">{{context.name}}</button>
-        </div>
+<h3>Reports</h3>
 
-        <h3>Reports</h3>
-        <ul>
-            <li ng-repeat="report in reports">
-                <span>{{report}}</span>
-            </li>
-        </ul>
+<div data-loading-screen>
+    <ul>
+        <li ng-repeat="report in reports">
+            <span>{{report}}</span>
+        </li>
+    </ul>
+</div>
 
